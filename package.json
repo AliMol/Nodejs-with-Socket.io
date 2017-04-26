@@ -10,7 +10,7 @@
   "scripts": {
     "start": "node server.js",
     "watch": "nodemon server.js",
-    "postinstall": "Yarn add bower && Yarn add gulp && gulp build"
+    "postinstall": "npm install -g yarn && Yarn add bower && Yarn add gulp && gulp build"
   },
   "babel": {
     "presets": ["es2015", "react"]
