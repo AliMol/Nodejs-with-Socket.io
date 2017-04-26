@@ -10,7 +10,7 @@
   "scripts": {
     "start": "node server.js",
     "watch": "nodemon server.js",
-    "postinstall": "npm install -g bower && yarn add gulp-cli && gulp build"
+    "postinstall": "npm install -g bower && gulp build"
   },
   "babel": {
     "presets": ["es2015", "react"]
@@ -44,6 +44,7 @@
     "bower": "^1.6.5",
     "browserify": "^12.0.1",
     "gulp": "^3.9.0",
+    "gulp-cli":"1.3.0"
     "gulp-autoprefixer": "^3.1.0",
     "gulp-concat": "^2.6.0",
     "gulp-cssmin": "^0.1.7",
