@@ -10,7 +10,7 @@
   "scripts": {
     "start": "node server.js",
     "watch": "nodemon server.js",
-    "postinstall": "npm install -g bower && npm install --global gulp-cli && gulp build"
+    "postinstall": "npm install -g bower && yarn add gulp-cli && gulp build"
   },
   "babel": {
     "presets": ["es2015", "react"]
