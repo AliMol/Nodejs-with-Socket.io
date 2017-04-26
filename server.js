@@ -2,6 +2,7 @@
 require('babel-register');
 
 var _ = require('underscore');
+var gulp = require('gulp')
 
 var async = require('async');
 var request = require('request');
