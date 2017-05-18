@@ -364,7 +364,6 @@ app.get('/api/stats', function(req, res, next) {
         });
 });
 
-
 /**
  * PUT /api/characters
  * Update winning and losing count for both characters.
@@ -431,6 +430,7 @@ app.put('/api/characters', function(req, res, next) {
         });
 });
 
+/**This middleware function will be executed on every request to the server, unless a request is handled by one the API endpoints that we will implement shortly.*/
 app.use(function(req, res) {
     Router.match({ routes: routes.default, location: req.url }, function(err, redirectLocation, renderProps) {
         if (err) {
