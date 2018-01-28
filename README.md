@@ -10,26 +10,26 @@ Express.js and Socket.io application development.
 
 # Setup
 
-1 - git clone https://github.com/AliMol/Nodejs-with-Socket.io.git
+1 - Git clone https://github.com/AliMol/Nodejs-with-Socket.io.git
 
-2 - cd into installed folder : Nodejs-with-Socket.io
+2 - CD into installed folder : Nodejs-with-Socket.io
 
-3 - run NPM install or YARN install
+3 - Run "NPM install" or "YARN install"
 
-4 - run NPM START
+4 - Run "NPM START"
 
-5 - in a new CMD window run gulp or npm run watch
+5 - In a new CMD window run "gulp" or "npm run watch"
 
-5 - copy newedenfaces.bson into ~\Program Files\MongoDB\Server\{version number}\bin
+5 - Copy newedenfaces.bson into ~\Program Files\MongoDB\Server\{version number}\bin
 
-6 - cd into ~\Program Files\MongoDB\Server\{version number}\bin
+6 - CD into ~\Program Files\MongoDB\Server\{version number}\bin
 
-7 - run mongorestore newedenfaces.bson -d nef -c characters in a new CMD window
+7 - Run "mongorestore newedenfaces.bson -d nef -c characters" in a new CMD window
 this command will restore the bson file into mongo db
 
-8 - run mongod in the previous CMD window
+8 - Run "mongod" in the previous CMD window
 this command will start up Mongo DB
 
-you can see the application on http://localhost:3000
+You can see the application on http://localhost:3000
 
 ....
