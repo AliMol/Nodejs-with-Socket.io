@@ -3,10 +3,7 @@
 **Source code** for [
 Create a character voting app using React, Node.js, MongoDB and Socket.IO]().
 
-This project is developed by Sahat Yalkabov in
-(http://sahatyalkabov.com/create-a-character-voting-app-using-react-nodejs-mongodb-and-socketio/),
-I am uploading it in my repository to show the design pattern that I am following in Node.js ,React.js, MongoDB,
-Express.js and Socket.io application development.
+This project is developed by Node.js ,React.js, MongoDB, Express.js and Socket.io .
 
 # Setup
 
